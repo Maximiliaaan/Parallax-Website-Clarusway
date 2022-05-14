@@ -1,0 +1,109 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "Lato", sans-serif;
+}
+body {
+  opacity: 0.9;
+}
+.paralax1 {
+  background-image: url(./img/bg.jpg);
+}
+.paralax1,
+.paralax2,
+.paralax3,
+.paralax4,
+.paralax5 {
+  width: 100%;
+  height: 100vh;
+
+  background-size: cover;
+  /* cover ile backgroun yaptık ama resmin sol üst köşeden aldı. biz center center ile resmin tam merkezlisini aldık */
+  background-position: center center;
+  background-repeat: no-repeat;
+  /* atacment kısmı backround resmini sabit tutar. */
+  background-attachment: fixed;
+  display: flex;
+  /* clarusway i ortalar */
+  justify-content: center;
+  align-items: center;
+}
+.paralax1__baslık1 {
+  color: white;
+  background-color: #4d4d4d;
+  padding: 1rem;
+  border: ;
+  border-top-left-radius: 20px;
+  border-bottom-right-radius: 20px;
+  /* borderın dışına çerçeve yaptık outlineile. aradaki mesafe ise outline offst */
+  outline: 0.5rem inset purple;
+  outline-offset: 1rem;
+  font-size: 3rem;
+  letter-spacing: 0.5rem;
+}
+.blackp {
+  background-color: black;
+  color: white;
+  text-align: center;
+  font-size: 1.1rem;
+  padding: 3rem 5rem;
+  line-height: 1.5rem;
+}
+.paralax1p {
+  background-color: rgb(204, 203, 203);
+  text-align: center;
+  font-size: 1.1rem;
+  padding: 3rem 5rem;
+  line-height: 1.5rem;
+}
+.paralax2 {
+  background-image: url(./img/bg2.jpg);
+}
+#claricon {
+  width: 20rem;
+}
+.paralax3 {
+  background-image: url(./img/bg1.jpg);
+}
+.paralax4 {
+  background-image: url(./img/bg3.jpg);
+}
+.paralax5 {
+  background-image: url(./img/bg4.jpg);
+}
+@media screen and (max-width: 770px) {
+  .paralax1__baslık1 {
+    font-size: 1.8rem;
+    border-top-left-radius: 16px;
+    border-bottom-right-radius: 16px;
+    /* borderın dışına çerçeve yaptık outlineile. aradaki mesafe ise outline offst */
+    outline: 0.3rem inset purple;
+    outline-offset: 0.6rem;
+    letter-spacing: 0.25rem;
+  }
+}
+@media screen and (max-width: 480px) {
+  .paralax1__baslık1 {
+    font-size: 1rem;
+    border-top-left-radius: 12px;
+    border-bottom-right-radius: 12px;
+    /* borderın dışına çerçeve yaptık outlineile. aradaki mesafe ise outline offst */
+    outline: 0.3rem inset purple;
+    outline-offset: 0.4rem;
+    letter-spacing: 0.15rem;
+  }
+}
+@media screen and (max-width: 770px) {
+    .paralax1p, .blackp {
+        font-size: 0.8rem;
+        padding: 2rem 3rem;
+        line-height: 1.1rem;;
+    }
+    @media screen and (max-width: 480px) {
+        .paralax1p, .blackp {
+            font-size: 0.5rem;
+            padding: 1.3rem 1.5rem;
+            line-height: 0.7rem;;
+        }
+    
