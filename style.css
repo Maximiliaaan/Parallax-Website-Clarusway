@@ -38,7 +38,7 @@ body {
   border-bottom-right-radius: 20px;
   /* borderın dışına çerçeve yaptık outlineile. aradaki mesafe ise outline offst */
   outline: 0.5rem inset purple;
-  outline-offset: 1rem;
+  outline-offset: 0.8rem;
   font-size: 3rem;
   letter-spacing: 0.5rem;
 }
@@ -82,7 +82,7 @@ body {
     border-bottom-right-radius: 16px;
     /* borderın dışına çerçeve yaptık outlineile. aradaki mesafe ise outline offst */
     outline: 0.3rem inset purple;
-    outline-offset: 0.6rem;
+    outline-offset: 0.5rem;
     letter-spacing: 0.25rem;
   }
 }
@@ -93,7 +93,7 @@ body {
     border-bottom-right-radius: 12px;
     /* borderın dışına çerçeve yaptık outlineile. aradaki mesafe ise outline offst */
     outline: 0.3rem inset purple;
-    outline-offset: 0.4rem;
+    outline-offset: 0.3rem;
     letter-spacing: 0.15rem;
   }
 }
@@ -109,16 +109,7 @@ body {
             padding: 1.3rem 1.5rem;
             line-height: 0.7rem;;
         }
-@media screen and (max-width: 480px) {
-          .paralax1__baslık1 {
-            font-size: 1rem;
-            border-top-left-radius: 12px;
-            border-bottom-right-radius: 12px;
-            /* borderın dışına çerçeve yaptık outlineile. aradaki mesafe ise outline offst */
-            outline: 0.3rem inset purple;
-            outline-offset: 0.4rem;
-            letter-spacing: 0.15rem;
-          }
+
         }
 @media screen and (max-width: 770px) {
             .parag {
