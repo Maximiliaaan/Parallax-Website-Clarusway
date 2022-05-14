@@ -50,6 +50,9 @@ body {
   padding: 3rem 5rem;
   line-height: 1.5rem;
 }
+.parag{
+  font-size: 1rem;
+}
 .paralax1p {
   background-color: rgb(204, 203, 203);
   text-align: center;
@@ -100,10 +103,29 @@ body {
         padding: 2rem 3rem;
         line-height: 1.1rem;;
     }
-    @media screen and (max-width: 480px) {
+@media screen and (max-width: 480px) {
         .paralax1p, .blackp {
             font-size: 0.5rem;
             padding: 1.3rem 1.5rem;
             line-height: 0.7rem;;
         }
-    
+@media screen and (max-width: 480px) {
+          .paralax1__baslık1 {
+            font-size: 1rem;
+            border-top-left-radius: 12px;
+            border-bottom-right-radius: 12px;
+            /* borderın dışına çerçeve yaptık outlineile. aradaki mesafe ise outline offst */
+            outline: 0.3rem inset purple;
+            outline-offset: 0.4rem;
+            letter-spacing: 0.15rem;
+          }
+        }
+@media screen and (max-width: 770px) {
+            .parag {
+                font-size: 06.rem;
+        }
+@media screen and (max-width: 480px) {
+                .parag {
+                    font-size: 0.35rem;
+                    
+}
